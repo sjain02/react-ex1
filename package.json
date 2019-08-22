@@ -1,0 +1,35 @@
+{
+  "name": "navikrcreations",
+  "version": "1.0.0",
+  "description": "This template includes all basic tools, plugin required to build React applications",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "test": "jest"
+  },
+  "author": "Saurabh Jain",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.0.0",
+    "redux": "^4.0.4",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
